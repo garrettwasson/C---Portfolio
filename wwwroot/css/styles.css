@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 600px;
+    margin: 0px auto;
+}
+    header {
+        padding: 0px 10px;
+        border-bottom: 2px solid black;
+        margin-bottom: 15px;
+    }
+        .topBar {
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 10px;
+            margin-left: 5px;
+        }
+            .links {
+                margin-right: 10px;
+                text-decoration: none;
+                font-size: 16pt;
+                color: black;
+            }
+    img {
+        border: 3px solid black;
+        border-radius: 3px;
+    }
+    .main {
+        padding: 15px;
+        margin: 0px auto;
+        margin-bottom: 10px;
+        width: 70%;
+        background-color: lightgrey;
+        border: 3px solid black;
+        border-radius: 5px;
+    }
+        h1 {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 5px solid silver;
+        }
+        #GarrettPic {
+            display:block;
+            margin-top: 10px;
+            margin: 0px auto;
+            
+        }
+        h2 {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid silver;
+            margin-bottom: 15px;
+        }
+        h3 {
+            padding: 10px 10px 0px 0px;
+            margin-bottom: 10px;
+        }
+        h4 {
+            margin: 5px 0px 5px 0px;
+            font-size: 18px;
+            font-weight: normal;
+            text-align: center;
+        }
+        .main p {
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .Languages {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+
+            ul {
+                margin-bottom: 10px;
+            }
+                li {
+                    text-align: center;
+                }
+        
+        .Talents {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+
+            ul {
+                list-style-type: none;
+                margin-bottom: 10px;
+            }
+                li {
+                    text-align: left;
+                }
+        form {
+            width: 240px;
+            padding: 10px;
+            display: block;
+            margin: 0px auto;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+        }
+            textarea {
+                display: block;
+                margin: 5px 0px 5px 0px;
+            }
